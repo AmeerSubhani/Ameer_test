@@ -873,4 +873,6 @@
     </xsl:variable>
 	<!--For my comment-->
 	<xsl:template match="docinfo:doc-id"/>
+		<!--For my comment book seq no-->
+	<xsl:template match="docinfo:book-seq"/>
 </xsl:stylesheet>
